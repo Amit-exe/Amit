@@ -1,0 +1,28 @@
+/* Example media query for mobile devices */
+@media (max-width: 768px) {
+  .navbar-item {
+    font-size: 0.9rem;
+  }
+
+  .hero-title {
+    font-size: 2.5rem;
+  }
+
+  .hero-subtitle {
+    font-size: 1.2rem;
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  overflow-y: scroll;
+  scrollbar-width: none;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
